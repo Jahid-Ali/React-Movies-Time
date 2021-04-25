@@ -3,18 +3,30 @@ import React from 'react';
 import { Cards } from './card';
 import dataArr from './data';
 
+let newdata = dataArr.map( (value) => {
+    return  <Cards
+    imgsrc={value.imgsrc}
+    title={value.title}
+    sname={value.sname}
+    link={value.link}
+/>;
+});
+
 function App() {
     return <>
         <h1 className="heading_style">Best series and Movies</h1>
 
-        <Cards
+        {newdata}
+
+
+        {/* <Cards
             imgsrc={dataArr[0].imgsrc}
             title={dataArr[0].title}
             sname={dataArr[0].sname}
             link={dataArr[0].link}
-        />
+        /> */}
 
-        <Cards
+        {/* <Cards
             imgsrc={dataArr[1].imgsrc}
             title={dataArr[1].title}
             sname={dataArr[1].sname}
@@ -82,7 +94,7 @@ function App() {
             title={dataArr[10].title}
             sname={dataArr[10].sname}
             link={dataArr[10].link}
-        />
+        /> */}
     </>;
 }
 
