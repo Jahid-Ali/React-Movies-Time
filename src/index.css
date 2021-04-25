@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(133, 133, 133);
+    font-family: cursive;
+    text-align: center;
+}
+
+.heading_style{
+    background-color: rgb(255, 255, 253);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 18px 0px;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    color: rgb(77, 77, 77);
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cards{
+    width: 100%;
+}
+
+.card{
+    width: 21.5%;
+    margin: 5.9% 5.9% 5.5% 5.9%;
+    background-color: rgb(226, 17, 17);
+    border-radius: 16px;
+    box-shadow: 5px 6px 13px -7px rgb(187, 15, 15);
+    
+    float: left;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.card:hover{
+    box-shadow: 9px 13px 13px -7px rgb(5, 4, 4);
+    transform: scale(1.05);
+}
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img{
+    width: 100%;
+    height: 342px;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+    margin-bottom: 10px;
+}
+
+.card_category{
+    color:azure;
+    font-size: 1.08rem;
+    letter-spacing: 0.5px;
+}
+
+.card_title{
+    margin: 13px;
+    font-size: 1.5rem;
+}
+
+.card_info a{
+    text-decoration: none;
+    background-color: #fff;
+
+    padding: 2.3% 0%;
+    margin: 5% 28%;
+
+    text-transform: capitalize;
+
+    border-radius: 20px;
+    overflow: auto;
+
+    color: rgb(70, 66, 66);
+
+}
+
+@media only screen and (min-width: 695px) and (max-width: 1000px) {
+    .card{
+        width: 35.5%;
+        margin: 5% 7%;
+    }
+} 
+
+@media only screen and (min-width: 603px) and (max-width: 689px) {
+    .card{
+        width: 35.5%;
+        margin: 5% 7%;
+    }
+
+    .card_info a{
+        margin: 3% 25%; 
+        padding: 2% 0%;
+        font-size: 13px;
+    }
+
+    .card_img{
+        height: 300px;
+    }
+
+} 
+
+@media only screen and (max-width: 603px) {
+    body{
+        background-color: rgb(133, 133, 133);
+        font-family: cursive;
+        text-align: center;
+    }
+    
+    .card{
+        width: 65%;
+        margin: 5% 18%;
+        border: 8px solid black;
+        border-radius: 25px;
+    }
+
+    .card_info a{
+        margin: 3% 25%; 
+        padding: 2% 0%;
+        font-size: 13px;
+    }
+
+    .card_img{
+        height: 300px;
+    }
+} 
+
+
