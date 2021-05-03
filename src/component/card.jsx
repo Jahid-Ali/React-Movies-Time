@@ -9,7 +9,7 @@ function Cards(props) {
                     <span className="card_category"> {props.title} </span>
                     <h3 className="card_title"> {props.sname} </h3>
 
-                    <a href={props.link} target="_blank">
+                    <a href={props.link} target="_blank" rel="link">
                     download now
                     </a>
                 </div>

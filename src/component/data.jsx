@@ -1,5 +1,6 @@
 const dataArr = [
     {
+        id: 1,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp5954433.jpg",
         title: "The Moviesflix Series",
         sname: "Money Heist",
@@ -7,6 +8,7 @@ const dataArr = [
     },
 
     {
+        id: 2,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp4884867.jpg",
         title: "The Moviesflix Series",
         sname: "Stranger Things",
@@ -14,6 +16,7 @@ const dataArr = [
     },
 
     {
+        id: 3,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp4056410.jpg",
         title: "The Moviesflix Series",
         sname: "Dark Web",
@@ -21,6 +24,7 @@ const dataArr = [
     },
 
     {
+        id: 4,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp4507713.png",
         title: "The Moviesflix Series",
         sname: "Mr. Robot",
@@ -28,6 +32,7 @@ const dataArr = [
     },
 
     {
+        id: 5,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp7394546.jpg",
         title: "The Moviesflix Series",
         sname: "Jumanji",
@@ -35,6 +40,7 @@ const dataArr = [
     },
 
     {
+        id: 6,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp8840198.jpg",
         title: "The Moviesflix Series",
         sname: "John Wick",
@@ -42,6 +48,7 @@ const dataArr = [
     },
 
     {
+        id: 7,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp4053167.jpg",
         title: "The Moviesflix Series",
         sname: "Umbrella Academy",
@@ -49,6 +56,7 @@ const dataArr = [
     },
 
     {
+        id: 8,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp8278443.jpg",
         title: "The Moviesflix Series",
         sname: "Witcher",
@@ -56,6 +64,7 @@ const dataArr = [
     },
 
     {
+        id: 9,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp8820418.jpg",
         title: "The Moviesflix Series",
         sname: "Harry Potter",
@@ -63,6 +72,7 @@ const dataArr = [
     },
 
     {
+        id: 10,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp4631777.jpg",
         title: "The Moviesflix Series",
         sname: "Fast and Furious",
@@ -70,6 +80,7 @@ const dataArr = [
     },
 
     {
+        id: 11,    // Each child in a list should have a unique "key" prop.
         imgsrc: "https://wallpapercave.com/wp/wp5404610.jpg",
         title: "The Moviesflix Series",
         sname: "Bumblebee ",

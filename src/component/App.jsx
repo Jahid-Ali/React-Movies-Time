@@ -3,22 +3,37 @@ import React from 'react';
 import { Cards } from './card';
 import dataArr from './data';
 
-let newdata = dataArr.map( (value) => {
-    return  <Cards
-    imgsrc={value.imgsrc}
-    title={value.title}
-    sname={value.sname}
-    link={value.link}
-/>;
-});
+
+// let newdata = dataArr.map((value) => {
+//     return (
+//         <Cards
+//         imgsrc={value.imgsrc}
+//         title={value.title}
+//         sname={value.sname}
+//         link={value.link}
+//         />);
+//     });
 
 function App() {
     return <>
         <h1 className="heading_style">Best series and Movies</h1>
 
-        {newdata}
+
+        {dataArr.map((value) => {              //use map function
+            return (
+                <Cards
+                    key ={value.id}         // Each child in a list should have a unique "key" prop.
+                    imgsrc={value.imgsrc}
+                    title={value.title}
+                    sname={value.sname}
+                    link={value.link}
+                />);
+        })}
+
+        {/* {newdata}     <-----use this    agar map(value) ke data ko dusre variable me store kroge to ye use */}
 
 
+        {/* when you dont use map method */}
         {/* <Cards
             imgsrc={dataArr[0].imgsrc}
             title={dataArr[0].title}
